@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#btnContainer {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+button {
+    position: absolute;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+#btnYes {
+    background-color: #4caf50;
+    color: white;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btnNo {
+    background-color: #f44336;
+    color: white;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Move Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="button">
+        <h1 id="h1">Você consegue clicar no botão "Não"??</h1>
+        <div id="btnContainer">
+            <button id="btnYes">Sim</button>
+            <button id="btnNo">Não</button>
+        </div>
+    </div>
+    <script>
+        const btnYes = document.getElementById('btnYes');
+        const btnNo = document.getElementById('btnNo');
+        const btnContainer = document.getElementById('btnContainer');
+        let counter = 0
+
+
+        function clickYes(){
+            if(counter == 0){
+                alert('Vai desistir fácil assim?')
+            }else{
+                alert("OK OK, VOU TE ENTREGAR O CODIGO...")
+                window.location.href = '';
+            }
+        }
+        
+        function moveButton() {
+            const maxX = btnContainer.clientWidth - btnNo.offsetWidth;
+            const maxY = btnContainer.clientHeight - btnNo.offsetHeight;
+            const x = Math.floor(Math.random() * maxX);
+            const y = Math.floor(Math.random() * maxY);
+            btnNo.style.left = x + 'px';
+            btnNo.style.top = y + 'px';
+            counter++
+        }
+
+        btnYes.addEventListener('click', clickYes);
+        btnNo.addEventListener('mouseenter', moveButton);
+        btnNo.addEventListener('click', moveButton);
+        </script>
+</body>
+</html>
