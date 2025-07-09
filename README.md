@@ -1,7 +1,7 @@
 # 🎯 No Button Challenge
 
 Projeto simples e interativo feito para praticar conceitos de HTML, CSS e JavaScript.  
-A ideia é testar se o usuário consegue clicar no botão “Não” — que, claro, não facilita as coisas.
+A ideia é testar se o usuário consegue clicar no botão “Clique aqui” — que, claro, não facilita as coisas.
 
 ---
 

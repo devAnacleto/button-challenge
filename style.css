@@ -45,16 +45,16 @@ button {
     user-select: none;
 }
 
-#btnYes {
-    background-color: #4caf50;
+#redirect {
+    background-color: #ff0000;
     color: white;
     left: 35%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-#btnNo {
-    background-color: #f44336;
+#scape {
+    background-color: #00ff15;
     color: white;
     left: 65%;
     top: 50%;
