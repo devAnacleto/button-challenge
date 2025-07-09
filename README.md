@@ -27,7 +27,7 @@ Durante meus estudos iniciais em JavaScript, criei esse desafio como uma forma d
 ## 🚀 Como testar
 
 Você pode acessar a versão online aqui:  
-🔗 [No Button Challenge - GitHub Pages](https://devanacleto.github.io/no-button-challenge/)
+🔗 [No Button Challenge - GitHub Pages](https://devanacleto.github.io/button-challenge/)
 
 Ou, se preferir, clonar e abrir localmente:
 
